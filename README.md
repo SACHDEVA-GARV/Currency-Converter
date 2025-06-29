@@ -46,7 +46,7 @@ This project is a **client-side web application** designed to perform currency c
 
 ## 📂 Project Structure
 
-
+```
 
 Currency-Converter/
 │
@@ -57,6 +57,7 @@ Currency-Converter/
 └── README.md           # Project documentation
 
 ```
+
 
 ---
 
@@ -94,5 +95,5 @@ This project is intended for educational purposes and personal portfolio use. Fe
 ##  Author
 
 Developed by **Garv Sachdeva**  
-[Your GitHub Profile](https://github.com/SACHDEVA-GARV)
+(https://github.com/SACHDEVA-GARV)
 ```
