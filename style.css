@@ -1,0 +1,135 @@
+/* --- 1. Import Professional Font --- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* --- 2. Modern CSS Reset & Globals --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Modern best practice for intuitive sizing */
+}
+
+/* --- 3. Body Styling with a Clean Palette --- */
+body {
+  font-family: 'Poppins', sans-serif; /* Apply the new font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light, clean gray background */
+  color: #333; /* Softer text color than pure black */
+}
+
+/* --- 4. The Main Container with Depth --- */
+.container {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 1rem; /* 16px */
+  width: 90vw;
+  max-width: 400px; /* Responsive width */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.07); /* Subtle shadow for depth */
+  transition: all 0.3s ease;
+}
+
+/* --- 5. Form Structure & Spacing --- */
+form {
+  margin: 2rem 0;
+}
+
+form p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+/* --- 6. Enhanced & Accessible Form Elements --- */
+form select,
+button,
+input {
+  width: 100%;
+  border: none;
+  outline: none; /* We will provide a custom focus state */
+  border-radius: 0.5rem; /* 8px */
+  font-family: 'Poppins', sans-serif; /* Ensure font consistency */
+}
+
+form input {
+  border: 1px solid #d1d5db;
+  font-size: 1.1rem;
+  font-weight: 500;
+  height: 3rem;
+  padding-left: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* --- Accessible Focus State --- */
+form input:focus,
+.select-container:has(select:focus) {
+  border-color: #5a67d8;
+  box-shadow: 0 0 0 3px rgba(90, 103, 216, 0.3);
+}
+
+/* --- 7. Interactive Dropdown & Icon --- */
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+
+.dropdown i {
+  font-size: 1.5rem;
+  color: #5a67d8; /* Use primary color for the icon */
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Smooth rotation */
+}
+
+.dropdown i:hover {
+  transform: rotate(180deg); /* Engaging hover effect */
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem; /* 8px */
+  border: 1px solid #d1d5db;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.select-container img {
+  width: 2rem;
+  margin-right: 0.75rem;
+}
+
+.select-container select {
+  font-size: 1rem;
+  background-color: transparent;
+  width: 100%;
+}
+
+/* --- 8. Result Message Styling --- */
+.msg {
+  margin: 2.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* --- 9. Engaging & Professional Button --- */
+form button {
+  height: 3.25rem;
+  background-color: #5a67d8; /* A modern, professional blue */
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(90, 103, 216, 0.3);
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+form button:hover {
+  background-color: #434190;
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 6px 16px rgba(90, 103, 216, 0.4);
+}
