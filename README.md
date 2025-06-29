@@ -1,4 +1,4 @@
-```markdown
+
 #  Currency Converter Web Application
 
 A responsive client-side currency converter that allows users to convert an amount from one currency to another in real-time. The application utilizes modern web technologies and external APIs to deliver accurate exchange rates and an interactive user experience.
@@ -46,7 +46,7 @@ This project is a **client-side web application** designed to perform currency c
 
 ## 📂 Project Structure
 
-```
+
 
 Currency-Converter/
 │
